@@ -2,3 +2,94 @@ html {
   font-family: sans-serif;
   line-height: 1.67;
 }
+
+.logo img {
+  max-width: 11rem;
+}
+
+header[role=banner],
+main[role=main],
+footer[role=contentinfo] {
+  margin: 0 auto;
+  max-width: 33rem;
+}
+
+header[role=banner] {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0;
+}
+
+footer[role=contentinfo] {
+  margin-bottom: 3rem;
+  text-align: right;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+.success, .danger, .warning, .info {
+  border-radius: 0.25rem;
+}
+
+.success {
+  background-color: #28a745;
+}
+
+.success, .success a[href] {
+  color: #fff;
+}
+
+.danger {
+  background-color: #dc3545;
+}
+
+.danger, .danger a[href] {
+  color: #fff;
+}
+
+.warning {
+  background-color: #ffc107;
+}
+
+.warning, .warning a[href] {
+  color: #343a40;
+}
+
+.info {
+  background-color: #17a2b8;
+}
+
+.info, .info a[href] {
+  color: white;
+}
+
+aside {
+  margin: 0;
+  padding: 0.2rem 0.8rem;
+}
+
+.steps {
+  counter-reset: step;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol.steps li {
+  counter-increment: step;
+  margin: 0.4rem 0;
+  padding: 0;
+}
+
+ol.steps li::before {
+  content: "Step " counter(step) ": ";
+  font-weight: bold;
+}

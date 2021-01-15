@@ -1,0 +1,80 @@
+#!/usr/bin/node
+const compare = require('reviewers-edition-compare')
+const fs = require('fs')
+const glob = require('glob')
+const path = require('path')
+const spell = require('reviewers-edition-spell')
+
+const forms = {
+  'confidentiality-ip': 'Confidentiality and Intellectual Property Terms',
+  contractor: 'Contractor Terms',
+  employee: 'Employee Terms',
+  'offer-letter': 'Offer Letter Template',
+  'statement-of-work': 'Statement of Work Template'
+}
+
+Object.keys(forms).forEach(subdirectory => {
+  const title = forms[subdirectory]
+  const editions = glob.sync(`${subdirectory}/*.rtf`)
+    .map(file => path.basename(file, '.rtf'))
+    .sort(compare)
+  fs.writeFileSync(`${subdirectory}/index.html`, `
+<!doctype html>
+<html lang=en-US>
+  <head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>${title}</title>
+    <link href=../styles.css rel=stylesheet>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Square One">
+    <meta name="twitter:description" content="${title}">
+    <meta name="twitter:image" content="https://squareoneforms.com/logo-on-white-250.png">
+    <meta property="og:description" content="${title}">
+    <meta property="og:image" content="https://squareoneforms.com/logo-on-white-250.png">
+    <meta property="og:site_name" content="Square One">
+    <meta property="og:title" content="Square One">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://squareoneforms.com/">
+  </head>
+  <body>
+    <header role=banner>
+      <a class=logo href=/><img alt="logotype: numeral one in a square" src="/logo.svg"></a>
+      <h1>Square One</h1>
+      <p class=tagline>fair terms. free forms. back to work.</p>
+    </header>
+    <main role=main>
+      <h2>${title}</h2>
+      ${editions.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
+    </main>
+    <footer role=contentinfo>
+      <p>a <a href=https://stonecutters.law>Stonecutters</a> project</p>
+    </footer>
+  </body>
+</html>
+  `)
+})
+
+function fileLinks (subdirectory, edition, title) {
+  const forms = {
+    html: 'Read Online',
+    rtf: 'Download RTF',
+    docx: 'Download for Microsoft Word',
+    pdf: 'Download PDF'
+  }
+  let returned = ''
+  Object.keys(forms).forEach(extension => {
+    if (fs.existsSync(path.join(subdirectory, `${edition}.${extension}`))) {
+      returned += `<p><a download="Square One ${title} ${edition}.${extension}" href=${edition}.${extension}>${forms[extension]}</a></p>`
+    }
+  })
+  returned += ''
+  return returned
+}
+
+function capitalize (spelling) {
+  return spelling
+    .split(' ')
+    .map(word => word[0].toUpperCase() + word.slice(1))
+    .join(' ')
+}
