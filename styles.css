@@ -12,7 +12,7 @@ header[role=banner],
 main[role=main],
 footer[role=contentinfo] {
   margin: 0 auto;
-  max-width: 3;
+  max-width: 37;
 }
 
 h1 {
