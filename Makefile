@@ -1,6 +1,6 @@
 .PHONY: all
 
-all: graph.png
+all: diagram.png
 	./index-forms
 
 %.png: %.dot
