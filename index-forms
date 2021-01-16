@@ -67,7 +67,7 @@ function fileLinks (subdirectory, edition, title) {
     if (fs.existsSync(path.join(subdirectory, `${edition}.${extension}`))) {
       const download = `Square One ${title} ${edition}.${extension}`
       const info = forms[extension]
-      returned += `<p><a${info.download ? ` download="${download}"` : ''} href=${edition}.${extension}>${info.text}</a></p>`
+      returned += `<p><a${info.download ? ` download="${download}"` : ''} href=/${subdirectory}/${edition}.${extension}>${info.text}</a></p>`
     }
   })
   returned += ''
