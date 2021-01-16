@@ -3,6 +3,10 @@ html {
   line-height: 1.67;
 }
 
+.logo {
+  display: block;
+}
+
 .logo img {
   margin-top: 1rem;
   max-width: 11rem;
@@ -97,4 +101,16 @@ ol.steps li::before {
 
 section {
   margin-top: 1rem;
+}
+
+.prompt {
+  font-style: italic;
+}
+
+.tag {
+  border-radius: 0.75ex;
+  border: 1px solid #aaa;
+  color: #aaa;
+  display: inline-block;
+  padding: 0 0.5ex;
 }

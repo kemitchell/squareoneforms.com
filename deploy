@@ -1,4 +1,4 @@
 #!/bin/sh
-./index-forms
+make
 site=squareoneforms.com
 rsync -a --delete --exclude deploy --exclude ".git" . "$site:/var/www/$site/"

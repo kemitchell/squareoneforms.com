@@ -25,7 +25,8 @@ Object.keys(forms).forEach(subdirectory => {
     <meta charset=UTF-8>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>${title}</title>
-    <link href=../styles.css rel=stylesheet>
+    <link href=/normalize.css rel=stylesheet>
+    <link href=/styles.css rel=stylesheet>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Square One">
     <meta name="twitter:description" content="${title}">
