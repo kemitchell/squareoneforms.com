@@ -6,15 +6,30 @@ const path = require('path')
 const spell = require('reviewers-edition-spell')
 
 const forms = {
-  'confidentiality-ip': 'Confidentiality and Intellectual Property Terms',
-  contractor: 'Contractor Terms',
-  employee: 'Employee Terms',
-  'offer-letter': 'Offer Letter Template',
-  'statement-of-work': 'Statement of Work Template'
+  'confidentiality-ip': {
+    title: 'Confidentiality and Intellectual Property Terms',
+    description: 'covers protection of conditional information and ownership of rights in work done'
+  },
+  contractor: {
+    title: 'Contractor Terms',
+    description: 'legal terms for contracting'
+  },
+  employee: {
+    title: 'Employee Terms',
+    description: 'legal terms for employees'
+  },
+  'offer-letter': {
+    title: 'Offer Letter Template',
+    description: 'the document employers sign with new employees'
+  },
+  'statement-of-work': {
+    title: 'Statement of Work Template',
+    description: 'the document clients sign with new contractors'
+  }
 }
 
 Object.keys(forms).forEach(subdirectory => {
-  const title = forms[subdirectory]
+  const { title, description } = forms[subdirectory]
   const editions = glob.sync(`${subdirectory}/*.rtf`)
     .map(file => path.basename(file, '.rtf'))
     .sort(compare)
@@ -46,6 +61,7 @@ Object.keys(forms).forEach(subdirectory => {
     </header>
     <main role=main>
       <h2>${title}</h2>
+      <p>${description}</p>
       ${editions.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
     </main>
     <footer role=contentinfo>
