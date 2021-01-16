@@ -4,6 +4,7 @@ html {
 }
 
 .logo img {
+  margin-top: 1rem;
   max-width: 11rem;
 }
 
@@ -88,4 +89,8 @@ ol.steps li {
 ol.steps li::before {
   content: "Step " counter(step) ": ";
   font-weight: bold;
+}
+
+.tagline {
+  font-style: italic;
 }
