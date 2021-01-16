@@ -1,7 +1,6 @@
 html {
   font-family: sans-serif;
   line-height: 1.67;
-  text-align: justify;
 }
 
 .logo img {
@@ -13,10 +12,6 @@ main[role=main],
 footer[role=contentinfo] {
   margin: 0 auto;
   max-width: 33rem;
-}
-
-header[role=banner] {
-  text-align: center;
 }
 
 h1 {
