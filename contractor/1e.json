@@ -1,0 +1,286 @@
+{
+  "content": [
+    {
+      "form": {
+        "content": [
+          "You will do the work described in the statement of work incorporating these terms by reference. The company will pay the fees described in the statement of work, and reimburse expenses that an executive officer of the company approves in writing, specifically, in advance. You will bill the company for fees and expenses as described in the statement of work."
+        ]
+      },
+      "heading": "Work"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "The company will pay each correctly billed amount within ",
+                {
+                  "blank": ""
+                },
+                " of receiving the bill."
+              ]
+            },
+            "heading": "Deadline"
+          },
+          {
+            "form": {
+              "content": [
+                "The company will notify you by e-mail of any suspected error in a bill within ",
+                {
+                  "blank": ""
+                },
+                " of receiving the bill. If the company does not notify of an error in that time, the company will pay the billed amount."
+              ]
+            },
+            "heading": "Errors"
+          },
+          {
+            "form": {
+              "content": [
+                "The company will pay you ",
+                {
+                  "blank": ""
+                },
+                " interest on late bill payments, compounded monthly. If the law sets a lower maximum rate of late-payment interest, the company will pay that rate instead."
+              ]
+            },
+            "heading": "Late Payments"
+          },
+          {
+            "form": {
+              "content": [
+                "If the company does not pay a bill on time, you may notify the company by e-mail and stop work until all bills are paid. Stopping work in this way postpones all deadlines under this agreement for as long as work stops. Any recurring fees continue to add up."
+              ]
+            },
+            "heading": "Stopping Work"
+          },
+          {
+            "form": {
+              "content": [
+                "If the company does not pay a bill on time, the company agrees to pay your costs of pursuing payment and collecting that bill, such as attorney fees and costs, that your incur after the deadline for payment."
+              ]
+            },
+            "heading": "Cost of Collection"
+          }
+        ]
+      },
+      "heading": "Payment"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "This agreement will end once work is done under the statement of work."
+              ]
+            },
+            "heading": "Expiration"
+          },
+          {
+            "form": {
+              "content": [
+                "You or the company can end this agreement early by notifying the other by e-mail ",
+                {
+                  "blank": ""
+                },
+                " in advance. The company can also end this agreement early under ",
+                {
+                  "reference": "Conflicts"
+                },
+                "."
+              ]
+            },
+            "heading": "Early Termination"
+          },
+          {
+            "form": {
+              "content": [
+                "When this agreement ends, you will stop work and bill the company for work already done."
+              ]
+            },
+            "heading": "Final Bill"
+          },
+          {
+            "form": {
+              "content": [
+                "These sections continue to apply after this agreement ends: ",
+                {
+                  "reference": "Work"
+                },
+                ", ",
+                {
+                  "reference": "Payment"
+                },
+                ", ",
+                {
+                  "reference": "Working Relationship"
+                },
+                ", and ",
+                {
+                  "reference": "Limit on Liability"
+                },
+                "."
+              ]
+            },
+            "heading": "Continuing Provisions"
+          }
+        ]
+      },
+      "heading": "Term"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "You will decide when, where, and how to work under this agreement, with the discretion of an independent contractor. You will not have any power to enter agreements or take other legal action on the company's behalf."
+              ]
+            },
+            "heading": "Independence"
+          },
+          {
+            "form": {
+              "content": [
+                "Unless the statement of work says otherwise, you may use employee and contractor personnel to do any work under this agreement. Those personnel will be your employees and contractors, not the company's."
+              ]
+            },
+            "heading": "Personnel"
+          },
+          {
+            "form": {
+              "content": [
+                "Neither you nor any of your personnel will receive any employee benefits from the company."
+              ]
+            },
+            "heading": "No Benefits"
+          },
+          {
+            "form": {
+              "content": [
+                "You and the company agree to do your respective parts for tax, labor, employment, and immigration law compliance, consistent with an independent-contractor relationship under this agreement."
+              ]
+            },
+            "heading": "Compliance"
+          },
+          {
+            "form": {
+              "content": [
+                "You will pay any losses that the company pays or becomes legally responsible to pay, including expenses of defending against any legal claim related to your failure under ",
+                {
+                  "reference": "Compliance"
+                },
+                " for you or any of your personnel. The company will promptly notify you by e-mail whenever it anticipates possible losses that you might have to pay. If the company fails to notify you promptly, you will not pay the company losses that you could have reduced or defended against if the company had notified you promptly."
+              ]
+            },
+            "heading": "Compliance Indemnity"
+          },
+          {
+            "form": {
+              "content": [
+                "You will notify the company by e-mail of any other company that you anticipate working with that the company could reasonably see as a direct competitor. In response, the company may end this agreement, effective immediately, by notifying you by e-mail."
+              ]
+            },
+            "heading": "Conflicts"
+          }
+        ]
+      },
+      "heading": "Working Relationship"
+    },
+    {
+      "form": {
+        "content": [
+          "You and the company agree to the Square One Standard Confidentiality and Intellectual Property Terms, First Edition (https://squareoneforms.com/confidentiality-ip/1e)."
+        ]
+      },
+      "heading": "Confidentiality and Intellectual Property"
+    },
+    {
+      "form": {
+        "content": [
+          "You make only the guarantees under the terms included in ",
+          {
+            "reference": "Confidentiality and Intellectual Property"
+          },
+          ". Otherwise, you provide all work under this agreement \"as is\", without any warranty whatsoever."
+        ],
+        "conspicuous": "yes"
+      },
+      "heading": "Disclaimer"
+    },
+    {
+      "form": {
+        "content": [
+          "As far as the law allows, if the company makes any legal claim related to this agreement against you, your aggregate liability to the company will be limited to the amount of fees the company has actually paid you under this agreement. This limit on liability does not apply to indemnity under ",
+          {
+            "reference": "Compliance Indemnity"
+          },
+          "."
+        ],
+        "conspicuous": "yes"
+      },
+      "heading": "Limit on Liability"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "The law of the state of the address the company provides with its signature on the statement of work governs all rights and duties under this agreement."
+              ]
+            },
+            "heading": "Law"
+          },
+          {
+            "form": {
+              "content": [
+                "You and the company to make any legal claim related to this agreement only in the federal or state courts nearest the address the company provides with its signature to the statement of work, and to pay the other's attorney fees and costs if they lose in court."
+              ]
+            },
+            "heading": "Disputes"
+          },
+          {
+            "form": {
+              "content": [
+                "These terms, the statement of work, and the terms included in ",
+                {
+                  "reference": "Confidentiality and Intellectual Property"
+                },
+                " list all the terms that you and the company intend to apply to your work for the company."
+              ]
+            },
+            "heading": "Whole Agreement"
+          },
+          {
+            "form": {
+              "content": [
+                "You cannot assign any right under this agreement without the permission of an executive officer of the company in writing, in advance. The company can assign this agreement, as a whole, to another business entity that acquires its stock or substantially all its assets, or to a new business entity set up to change its legal form or jurisdiction. Any attempt to assign rights under this agreement against its terms has no legal effect."
+              ]
+            },
+            "heading": "Assignment"
+          },
+          {
+            "form": {
+              "content": [
+                "Neither party can delegate any duty under this agreement. Any attempt to delegate has no legal effect."
+              ]
+            },
+            "heading": "Delegation"
+          },
+          {
+            "form": {
+              "content": [
+                "If a court decides that any part of this agreement cannot be enforced, for any reason, the rest of this agreement will continue to apply."
+              ]
+            },
+            "heading": "Unenforceable Terms"
+          }
+        ]
+      },
+      "heading": "General Contract Terms"
+    }
+  ]
+}
