@@ -5,6 +5,12 @@ const glob = require('glob')
 const path = require('path')
 const spell = require('reviewers-edition-spell')
 
+const partials = {}
+glob.sync('partials/*.html').forEach(file => {
+  const basename = path.basename(file, '.html')
+  partials[basename] = fs.readFileSync(file, 'utf8')
+})
+
 const forms = {
   'confidentiality-ip': {
     title: 'Confidentiality and Intellectual Property Terms',
@@ -37,11 +43,8 @@ Object.keys(forms).forEach(subdirectory => {
 <!doctype html>
 <html lang=en-US>
   <head>
-    <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
+${partials.meta}
     <title>${title}</title>
-    <link href=/normalize.css rel=stylesheet>
-    <link href=/styles.css rel=stylesheet>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Square One">
     <meta name="twitter:description" content="${title}">
@@ -54,19 +57,13 @@ Object.keys(forms).forEach(subdirectory => {
     <meta property="og:url" content="https://squareoneforms.com/">
   </head>
   <body>
-    <header role=banner>
-      <a class=logo href=/><img alt="logotype: numeral one in a square" src="/logo.svg"></a>
-      <h1>Square One</h1>
-      <p class=tagline>fair terms. free forms. back to work.</p>
-    </header>
+${partials.header}
     <main role=main>
       <h2>${title}</h2>
       <p>${description}</p>
       ${editions.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
     </main>
-    <footer role=contentinfo>
-      <p>a <a href=https://stonecutters.law>Stonecutters</a> project</p>
-    </footer>
+${partials.footer}
   </body>
 </html>
   `)

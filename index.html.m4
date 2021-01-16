@@ -1,11 +1,8 @@
 <!doctype html>
 <html lang=en-US>
   <head>
-    <meta charset=UTF-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
+include(`partials/meta.html')
     <title>Square One</title>
-    <link href=/normalize.css rel=stylesheet>
-    <link href=/styles.css rel=stylesheet>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Square One">
     <meta name="twitter:description" content="fair terms. free forms. back to work.">
@@ -18,11 +15,7 @@
     <meta property="og:url" content="https://squareoneforms.com/">
   </head>
   <body>
-    <header role=banner>
-      <a class=logo href=/><img alt="logotype: numeral one in a square" src="/logo.svg"></a>
-      <h1>Square One</h1>
-      <p class=tagline>fair terms. free forms. back to work.</p>
-    </header>
+include(`partials/header.html')
     <main role=main>
       <p>Square One provides free, plain English legal templates for hiring employees and independent contractors in the United States. Anyone can use Square One forms to hire someone new, for free.</p>
       <p><span class=prompt>Looking to hire?</span> Jump to instructions for <a href=#employee>employee</a> or <a href=#contractor>contractor</a>.</p>
@@ -80,8 +73,6 @@
         </ul>
       </section>
     </main>
-    <footer role=contentinfo>
-      <p>a <a href=https://stonecutters.law>Stonecutters</a> project</p>
-    </footer>
+include(`partials/footer.html')
   </body>
 </html>

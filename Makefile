@@ -1,7 +1,10 @@
 .PHONY: all
 
-all: diagram.png | node_modules
+all: index.html diagram.png | node_modules
 	./index-forms
+
+%.html: %.html.m4
+	m4 $< > $@
 
 %.png: %.dot
 	dot -Tpng $< > $@
