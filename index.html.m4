@@ -1,78 +1,78 @@
 <!doctype html>
 <html lang=en-US>
-  <head>
+<head>
 include(`partials/meta.html')
-    <title>Square One</title>
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Square One">
-    <meta name="twitter:description" content="fair terms. free forms. back to work.">
-    <meta name="twitter:image" content="https://squareoneforms.com/logo-on-white-250.png">
-    <meta property="og:description" content="fair terms. free forms. back to work.">
-    <meta property="og:image" content="https://squareoneforms.com/logo-on-white-250.png">
-    <meta property="og:site_name" content="Square One">
-    <meta property="og:title" content="Square One">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://squareoneforms.com/">
-  </head>
-  <body>
+  <title>Square One</title>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Square One">
+  <meta name="twitter:description" content="fair terms. free forms. back to work.">
+  <meta name="twitter:image" content="https://squareoneforms.com/logo-on-white-250.png">
+  <meta property="og:description" content="fair terms. free forms. back to work.">
+  <meta property="og:image" content="https://squareoneforms.com/logo-on-white-250.png">
+  <meta property="og:site_name" content="Square One">
+  <meta property="og:title" content="Square One">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://squareoneforms.com/">
+</head>
+<body>
 include(`partials/header.html')
-    <main role=main>
-      <p>Square One provides free, plain English legal templates for hiring employees and independent contractors in the United States. Anyone can use Square One forms to hire someone new, for free.</p>
-      <p><span class=prompt>Looking to hire?</span> Jump to instructions for <a href=#employee>employee</a> or <a href=#contractor>contractor</a>.</p>
-      <p><span class=prompt>Want a look at the forms?</span> <a href=#forms>Be our guest.</a></p>
-      <p><span class=prompt>Curious?</span> <a href=#about>Read about the project.</a></p>
-      <p><span class=prompt>Thoughts?</span> <a href=#feedback>We’d like to hear from you.</a></p>
-      <section>
-        <h2 id=employee>Hire an Employee</h2>
-        <ol class=steps>
-          <li><a download="Square One Offer Letter.rtf" href=offer-letter/1e.rtf>Download the offer letter template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “employer.”</li>
-          <li><a download="Square One Employment Terms.pdf" href=employee/1e.pdf>Download the employment terms.</a></li>
-          <li>Send the offer letter to your new employee, attaching the employment terms at the back. Ask them to sign and return to you.</li>
-        </ol>
-      </section>
-      <section>
-        <h2 id=contractor>Hire a Contractor</h2>
-        <ol class=steps>
-          <li>Make sure they’re really a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. IRS <a href=https://www.irs.gov/taxtopics/tc762>publishes a helpful guide</a>. Check with your state labor agency’s website, too.</li>
-          <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/1e.rtrtf>Download the statement of work template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “client.”</li>
-          <li>Send the statement of work to your new contractor. Ask them to sign and return to you.</li>
-        </ol>
-      </section>
-      <section>
-        <h2 id=forms>Forms</h2>
-        <dl>
-          <dt><a href=offer-letter>Offer Letter Template</a> <span class=tag>employees</span></dt>
-          <dd>The basic document companies use to offer employment. Covers things like position, salary, benefits, and responsibilities. Incorporates the legal terms for employees by reference.</dd>
-          <dt><a href=statement-of-work>Statement of Work Template</a> <span class=tag>contractors</span></dt>
-          <dd>The basic documents companies use to hire contractors. Covers things like the work to be done, pay, deadlines, and payment instructions. Incorporates the legal terms for contractors by reference.</dd>
-          <dt><a href=employee>Employee Terms</a> <span class=tag>employees</span></dt>
-          <dd>The legal terms that apply to employment. Covers things like at-will status, full-time commitment, and worker eligibility. Incorporates confidentiality and intellectual property terms by reference.</dd>
-          <dt><a href=contractor>Contractor Terms</a> <span class=tag>contractors</span></dt>
-          <dd>The legal terms that apply to contracting. Covers things like billing, termination, tax compliance, and liability. Incorporates confidentiality and intellectual property terms by reference.</dd>
-          <dt><a href=confidentiality-ip>Confidentiality and Intellectual Property Terms</a> <span class=tag>employees</span> <span class=tag>contractors</span></dt>
-          <dd>Covers protection of confidential information, as well as ownership of rights, like copyrights and patents, in work the worker does.</dd>
-        </dl>
-        <p>Visually, the relationship between the forms looks like:</p>
-        <img src=/diagram.png alt="diagram of relationships between forms">
-      </section>
-      <section>
-        <h2 id=about>About</h2>
-        <p>A group of experienced lawyers came together during the 2020 pandemic to publish Square One.</p>
-        <p>Like others who were able to keep working during the 2020 pandemic, even as Americans lost work in record numbers, we felt a need to do what we could for those who weren’t so lucky. Part of that is helping companies who can rehire do so. Uncertainty and costs around basic legal terms shouldn’t slow them down.</p>
-        <p>Of course, there’s no such thing as “perfect” legal terms. But we’ve tried our best, based on our judgment and experience, to fit as many common situations as possible, nationwide. Some forms favor companies more heavily. Some favor workers. Square One tries to be fair to both, to give folks what they expect.</p>
-        <p><a href=https://notlegaladvice.law>That said, there’s no substitute for talking to a lawyer, helping them understand your business, and allowing them to tailor a set of terms specifically for your needs.</a> A tailored shirt nearly always fits better than a shirt off a rack or a shelf. But most of us aren’t wearing tailored shirts right now.</p>
-      </section>
-      <section>
-        <h2 id=feedback>Feedback</h2>
-        <p>Very welcome! <a href=mailto:feedback@squareoneforms.com>Send us an e-mail.</a></p>
-        <p>We are particularly interested in:</p>
-        <ul>
-          <li>how to make it easier for people who aren’t lawyers to use and understand the forms</li>
-          <li>pointers from lawyers in states with peculiar labor laws</li>
-          <li>new ideas on how to avoid conflicts between former, current, and future employers and clients</li>
-        </ul>
-      </section>
-    </main>
+<main role=main>
+  <p>Square One provides free, plain English legal templates for hiring employees and independent contractors in the United States. Anyone can use Square One forms to hire someone new, for free.</p>
+  <p><span class=prompt>Looking to hire?</span> Jump to instructions for <a href=#employee>employee</a> or <a href=#contractor>contractor</a>.</p>
+  <p><span class=prompt>Want a look at the forms?</span> <a href=#forms>Be our guest.</a></p>
+  <p><span class=prompt>Curious?</span> <a href=#about>Read about the project.</a></p>
+  <p><span class=prompt>Thoughts?</span> <a href=#feedback>We’d like to hear from you.</a></p>
+  <section>
+    <h2 id=employee>Hire an Employee</h2>
+    <ol class=steps>
+      <li><a download="Square One Offer Letter.rtf" href=offer-letter/1e.rtf>Download the offer letter template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “employer.”</li>
+      <li><a download="Square One Employment Terms.pdf" href=employee/1e.pdf>Download the employment terms.</a></li>
+      <li>Send the offer letter to your new employee, attaching the employment terms at the back. Ask them to sign and return to you.</li>
+    </ol>
+  </section>
+  <section>
+    <h2 id=contractor>Hire a Contractor</h2>
+    <ol class=steps>
+      <li>Make sure they’re really a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. IRS <a href=https://www.irs.gov/taxtopics/tc762>publishes a helpful guide</a>. Check with your state labor agency’s website, too.</li>
+      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/1e.rtrtf>Download the statement of work template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “client.”</li>
+      <li>Send the statement of work to your new contractor. Ask them to sign and return to you.</li>
+    </ol>
+  </section>
+  <section>
+    <h2 id=forms>Forms</h2>
+    <dl>
+      <dt><a href=offer-letter>Offer Letter Template</a> <span class=tag>employees</span></dt>
+      <dd>The basic document companies use to offer employment. Covers things like position, salary, benefits, and responsibilities. Incorporates the legal terms for employees by reference.</dd>
+      <dt><a href=statement-of-work>Statement of Work Template</a> <span class=tag>contractors</span></dt>
+      <dd>The basic documents companies use to hire contractors. Covers things like the work to be done, pay, deadlines, and payment instructions. Incorporates the legal terms for contractors by reference.</dd>
+      <dt><a href=employee>Employee Terms</a> <span class=tag>employees</span></dt>
+      <dd>The legal terms that apply to employment. Covers things like at-will status, full-time commitment, and worker eligibility. Incorporates confidentiality and intellectual property terms by reference.</dd>
+      <dt><a href=contractor>Contractor Terms</a> <span class=tag>contractors</span></dt>
+      <dd>The legal terms that apply to contracting. Covers things like billing, termination, tax compliance, and liability. Incorporates confidentiality and intellectual property terms by reference.</dd>
+      <dt><a href=confidentiality-ip>Confidentiality and Intellectual Property Terms</a> <span class=tag>employees</span> <span class=tag>contractors</span></dt>
+      <dd>Covers protection of confidential information, as well as ownership of rights, like copyrights and patents, in work the worker does.</dd>
+    </dl>
+    <p>Visually, the relationship between the forms looks like:</p>
+    <img src=/diagram.png alt="diagram of relationships between forms">
+  </section>
+  <section>
+    <h2 id=about>About</h2>
+    <p>A group of experienced lawyers came together during the 2020 pandemic to publish Square One.</p>
+    <p>Like others who were able to keep working during the 2020 pandemic, even as Americans lost work in record numbers, we felt a need to do what we could for those who weren’t so lucky. Part of that is helping companies who can rehire do so. Uncertainty and costs around basic legal terms shouldn’t slow them down.</p>
+    <p>Of course, there’s no such thing as “perfect” legal terms. But we’ve tried our best, based on our judgment and experience, to fit as many common situations as possible, nationwide. Some forms favor companies more heavily. Some favor workers. Square One tries to be fair to both, to give folks what they expect.</p>
+    <p><a href=https://notlegaladvice.law>That said, there’s no substitute for talking to a lawyer, helping them understand your business, and allowing them to tailor a set of terms specifically for your needs.</a> A tailored shirt nearly always fits better than a shirt off a rack or a shelf. But most of us aren’t wearing tailored shirts right now.</p>
+  </section>
+  <section>
+    <h2 id=feedback>Feedback</h2>
+    <p>Very welcome! <a href=mailto:feedback@squareoneforms.com>Send us an e-mail.</a></p>
+    <p>We are particularly interested in:</p>
+    <ul>
+      <li>how to make it easier for people who aren’t lawyers to use and understand the forms</li>
+      <li>pointers from lawyers in states with peculiar labor laws</li>
+      <li>new ideas on how to avoid conflicts between former, current, and future employers and clients</li>
+    </ul>
+  </section>
+</main>
 include(`partials/footer.html')
-  </body>
+</body>
 </html>
