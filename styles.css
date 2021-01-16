@@ -12,7 +12,7 @@ header[role=banner],
 main[role=main],
 footer[role=contentinfo] {
   margin: 0 auto;
-  max-width: 37rem;
+  max-width: 3;
 }
 
 h1 {
@@ -93,4 +93,8 @@ ol.steps li::before {
 
 .tagline {
   font-style: italic;
+}
+
+section {
+  margin-top: 1rem;
 }
