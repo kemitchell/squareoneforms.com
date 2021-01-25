@@ -24,6 +24,7 @@ h1 {
 }
 
 footer[role=contentinfo] {
+  border-top: 1px dashed #777;
   margin-bottom: 3rem;
   text-align: right;
 }
