@@ -109,8 +109,8 @@ section {
 }
 
 .tag {
-  border-radius: 0.75ex;
   border: 1px solid #aaa;
+  border-radius: 0.75ex;
   color: #aaa;
   display: inline-block;
   padding: 0 0.5ex;
