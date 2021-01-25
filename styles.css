@@ -97,6 +97,7 @@ ol.steps li::before {
 
 .tagline {
   font-style: italic;
+  margin-top: 0.25rem;
 }
 
 section {
