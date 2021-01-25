@@ -52,6 +52,9 @@ include(`partials/header.html')
       <dt><a href=confidentiality-ip>Confidentiality and Intellectual Property Terms</a> <span class=tag>employees</span> <span class=tag>contractors</span></dt>
       <dd>Covers protection of confidential information, as well as ownership of rights, like copyrights and patents, in work the worker does.</dd>
     </dl>
+  </section>
+  <section>
+    <h2 id=map>Map</h2>
     <p>Visually, the relationship between the forms looks like:</p>
     <img src=/diagram.png alt="diagram of relationships between forms">
   </section>
