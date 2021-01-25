@@ -72,6 +72,7 @@ include(`partials/header.html')
     <ul>
       <li>how to make it easier for people who aren’t lawyers to use and understand the forms</li>
       <li>pointers from lawyers in states with peculiar labor laws</li>
+      <li>how to make this website simpler, easier to understand, and more effective</li>
       <li>new ideas on how to avoid conflicts between former, current, and future employers and clients</li>
     </ul>
   </section>
