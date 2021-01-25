@@ -21,7 +21,7 @@ include(`partials/header.html')
   <p><span class=prompt>Looking to hire?</span> Jump to instructions for <a href=#employee>employee</a> or <a href=#contractor>contractor</a>.</p>
   <p><span class=prompt>Want a look at the forms?</span> <a href=#forms>Be our guest.</a></p>
   <p><span class=prompt>Curious?</span> <a href=#about>Read about the project.</a></p>
-  <p><span class=prompt>Thoughts?</span> <a href=#feedback>We’d like to hear from you.</a></p>
+  <p><span class=prompt>Thoughts?</span> <a href=#feedback>We’d like to read them.</a></p>
   <section>
     <h2 id=employee>Hire an Employee</h2>
     <ol class=steps>
