@@ -55,7 +55,7 @@ include(`partials/header.html')
   </section>
   <section>
     <h2 id=map>Map</h2>
-    <p>Visually, the relationship between the forms looks like:</p>
+    <p>Visually, the relationships between the forms looks like this:</p>
     <img src=/diagram.png alt="diagram of relationships between forms">
   </section>
   <section>
