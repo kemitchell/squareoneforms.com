@@ -17,6 +17,8 @@ main[role=main],
 footer[role=contentinfo] {
   margin: 0 auto;
   max-width: 37rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 h1 {
