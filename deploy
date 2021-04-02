@@ -1,4 +1,4 @@
 #!/bin/sh
 make
 site=squareoneforms.com
-rsync -a --delete --exclude deploy --exclude ".git" . "$site:/var/www/$site/"
+rsync -a --delete --exclude partials --exclude "*.m4" --exclude deploy --exclude ".git" . "$site:/var/www/$site/"
