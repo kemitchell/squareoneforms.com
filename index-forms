@@ -39,6 +39,7 @@ Object.keys(forms).forEach(subdirectory => {
   const editions = glob.sync(`${subdirectory}/*.rtf`)
     .map(file => path.basename(file, '.rtf'))
     .sort(compare)
+    .reverse()
   fs.writeFileSync(`${subdirectory}/index.html`, `
 <!doctype html>
 <html lang=en-US>
