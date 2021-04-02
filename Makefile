@@ -1,8 +1,9 @@
 partials=$(wildcard partials/*.html)
+html_templates=$(wildcard **/*.html.m4) index.html.m4
 
 .PHONY: all
 
-all: index.html logo.png logo-on-white-250.png diagram.png | node_modules
+all: $(html_templates:.html.m4=.html) logo.png logo-on-white-250.png diagram.png | node_modules
 	./index-forms
 
 logo.png: logo.svg

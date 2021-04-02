@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang=en-US>
 <head>
-define(LATEST_EDITION, 1e1c)dnl
+define(LATEST_EDITION, 1e2c)dnl
 include(`partials/meta.html')
   <title>Square One</title>
   <meta name="twitter:card" content="summary">
