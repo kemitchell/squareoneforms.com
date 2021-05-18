@@ -20,3 +20,8 @@ logo-on-white-250.png: logo.svg
 
 node_modules:
 	npm ci
+
+.PHONY: clean
+
+clean:
+	rm -f $(html_templates:.html.m4=.html)
