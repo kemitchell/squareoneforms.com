@@ -72,7 +72,7 @@ ${partials.footer}
 
 function fileLinks (subdirectory, edition, title) {
   const forms = {
-    html: { text: 'Read Online', download: false },
+    html: { text: 'Read Online', download: false, stripExtension: true },
     rtf: { text: 'Download RTF', download: true },
     docx: { text: 'Download for Microsoft Word', download: true },
     pdf: { text: 'Download PDF', download: true }
@@ -82,7 +82,10 @@ function fileLinks (subdirectory, edition, title) {
     if (fs.existsSync(path.join(subdirectory, `${edition}.${extension}`))) {
       const download = `Square One ${title} ${edition}.${extension}`
       const info = forms[extension]
-      returned += `<p><a${info.download ? ` download="${download}"` : ''} href=/${subdirectory}/${edition}.${extension}>${info.text}</a></p>`
+      const href = info.stripExtension
+        ? `/${subdirectory}/${edition}`
+        : `/${subdirectory}/${edition}.${extension}`
+      returned += `<p><a${info.download ? ` download="${download}"` : ''} href=${href}>${info.text}</a></p>`
     }
   })
   returned += ''
