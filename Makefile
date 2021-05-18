@@ -13,7 +13,7 @@ logo-on-white-250.png: logo.svg
 	convert -size 250x250 $< $@
 
 %.html: %.html.m4 $(partials)
-	m4 $< | tidy -indent --indent-spaces 2 -quiet --tidy-mark no --wrap 0 > $@
+	m4 $< | tidy -config ./tidy.config > $@
 
 %.png: %.dot
 	dot -Tpng $< > $@
