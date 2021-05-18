@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "glob": "^7.1.6",
+    "glob": "^7.1.7",
     "reviewers-edition-compare": "^1.0.5",
     "reviewers-edition-spell": "^2.0.0"
   }
