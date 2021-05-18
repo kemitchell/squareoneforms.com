@@ -3,6 +3,7 @@ const compare = require('reviewers-edition-compare')
 const fs = require('fs')
 const glob = require('glob')
 const path = require('path')
+const { spawnSync } = require('child_process')
 const spell = require('reviewers-edition-spell')
 
 const partials = {}
@@ -40,7 +41,8 @@ Object.keys(forms).forEach(subdirectory => {
     .map(file => path.basename(file, '.rtf'))
     .sort(compare)
     .reverse()
-  fs.writeFileSync(`${subdirectory}/index.html`, `
+  const htmlFile = `${subdirectory}/index.html`
+  fs.writeFileSync(htmlFile, `
 <!doctype html>
 <html lang=en-US>
 <head>
@@ -68,6 +70,7 @@ ${partials.footer}
 </body>
 </html>
   `.trim())
+  spawnSync('tidy', ['-modify', '-config', './tidy.config', htmlFile])
 })
 
 function fileLinks (subdirectory, edition, title) {
