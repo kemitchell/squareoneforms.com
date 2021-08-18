@@ -78,7 +78,7 @@ include(`partials/header.html')
   </section>
   <section>
     <h2 id=license>License</h2>
-    <p>Each contributor to the Square One forms grants everyone permission to do everything with those forms that would otherwise infringe their copyright in them, under these rules:</p>
+    <p>Each contributor to Square One grants everyone permission to do everything with the Square One forms that would otherwise infringe their copyright in them, under these rules:</p>
         <p>
           <strong class="conspicuous">As far as the law allows, each form comes as is, without any warranty at all. No one involved in writing, reviewing, or improving any of the forms will be liable to you for any damages related to this license or use of the forms, for any kind of legal claim.</strong>
         </p>
