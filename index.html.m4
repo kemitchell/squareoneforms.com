@@ -76,6 +76,14 @@ include(`partials/header.html')
       <li>new ideas on how to avoid conflicts between former, current, and future employers and clients</li>
     </ul>
   </section>
+  <section>
+    <h2 id=license>License</h2>
+    <p>Each contributor to the Square One forms grants everyone permission to do everything with those forms that would otherwise infringe their copyright in them, under these rules:</p>
+        <p>
+          <strong class="conspicuous">As far as the law allows, each form comes as is, without any warranty at all. No one involved in writing, reviewing, or improving any of the forms will be liable to you for any damages related to this license or use of the forms, for any kind of legal claim.</strong>
+        </p>
+        <p>If you make changes to the forms, other than filling in blanks and choosing from provided options, remove all mention of “Square One” and squareoneforms.com.</p>
+  </section>
 </main>
 include(`partials/footer.html')
 </body>
