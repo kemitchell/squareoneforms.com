@@ -43,10 +43,10 @@ include(`partials/header.html')
     <dl>
       <dt><a href=offer-letter>Offer Letter Template</a> <span class=tag>employees</span></dt>
       <dd>The basic document companies use to offer employment. Covers things like position, salary, benefits, and responsibilities. Incorporates the legal terms for employees by reference.</dd>
-      <dt><a href=statement-of-work>Statement of Work Template</a> <span class=tag>contractors</span></dt>
-      <dd>The basic documents companies use to hire contractors. Covers things like the work to be done, pay, deadlines, and payment instructions. Incorporates the legal terms for contractors by reference.</dd>
       <dt><a href=employee>Employee Terms</a> <span class=tag>employees</span></dt>
       <dd>The legal terms that apply to employment. Covers things like at-will status, full-time commitment, and worker eligibility. Incorporates confidentiality and intellectual property terms by reference.</dd>
+      <dt><a href=statement-of-work>Statement of Work Template</a> <span class=tag>contractors</span></dt>
+      <dd>The basic documents companies use to hire contractors. Covers things like the work to be done, pay, deadlines, and payment instructions. Incorporates the legal terms for contractors by reference.</dd>
       <dt><a href=contractor>Contractor Terms</a> <span class=tag>contractors</span></dt>
       <dd>The legal terms that apply to contracting. Covers things like billing, termination, tax compliance, and liability. Incorporates confidentiality and intellectual property terms by reference.</dd>
       <dt><a href=confidentiality-ip>Confidentiality and Intellectual Property Terms</a> <span class=tag>employees</span> <span class=tag>contractors</span></dt>
