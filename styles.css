@@ -139,3 +139,14 @@ section {
 .terms h5 {
   font-weight: normal;
 }
+
+aside {
+  background: #fcf8e3;
+  border-radius: 0.5rem;
+  border: 1px solid orange;
+  box-sizing: border-box;
+  color: #333;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
