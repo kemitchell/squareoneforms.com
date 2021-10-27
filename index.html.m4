@@ -1,3 +1,4 @@
+define(`LATEST_EDITION', `2e')
 <!doctype html>
 <html lang=en-US>
 <head>
@@ -13,6 +14,7 @@ include(`partials/meta.html')
   <meta property="og:title" content="Square One">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://squareoneforms.com/">
+  <meta name="latest" content="LATEST_EDITION">
 </head>
 <body>
 include(`partials/header.html')
@@ -25,8 +27,8 @@ include(`partials/header.html')
   <section>
     <h2 id=employee>Hire an Employee</h2>
     <ol class=steps>
-      <li><a download="Square One Offer Letter.rtf" href=offer-letter/1e2u.rtf>Download the offer letter template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “employer.”</li>
-      <li><a download="Square One Employment Terms.pdf" href=employee/1e2u.pdf>Download the employment terms.</a></li>
+      <li><a download="Square One Offer Letter.rtf" href=offer-letter/LATEST_EDITION.rtf>Download the offer letter template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “employer.”</li>
+      <li><a download="Square One Employment Terms.pdf" href=employee/LATEST_EDITION.pdf>Download the employment terms.</a></li>
       <li>Send the offer letter to your new employee, attaching the employment terms at the back. Ask them to sign and return to you.</li>
     </ol>
   </section>
@@ -34,7 +36,7 @@ include(`partials/header.html')
     <h2 id=contractor>Hire a Contractor</h2>
     <ol class=steps>
       <li>Make sure they’re really a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. <a href=https://www.irs.gov/taxtopics/tc762>IRS publishes a helpful guide.</a> Check with your state labor agency’s website, too.</li>
-      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/1e2u.rtf>Download the statement of work template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “client.”</li>
+      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/LATEST_EDITION.rtf>Download the statement of work template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “client.”</li>
       <li>Send the statement of work to your new contractor. Ask them to sign and return to you.</li>
     </ol>
   </section>
