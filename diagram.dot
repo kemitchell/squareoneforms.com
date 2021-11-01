@@ -1,11 +1,15 @@
 digraph {
+  node[height=1,fontname="Arial"];
+  graph[fontname="Arial"];
+  edge[fontname="Arial"];
+  rankdir=LR;
   Employee;
   Contractor;
   OfferLetter[label="Offer\nLetter\n(signed)",shape=note];
   SOW[label="Statement\nof Work\n(signed)",shape=note];
   EmployeeTerms[label="Employee\nTerms",shape=note];
   ContractorTerms[label="Contractor\nTerms",shape=note];
-  CIP[label="Confidentiality and\nIntellectual Property\nTerms",shape=note];
+  CIP[label="Confidentiality\nand\nIntellectual Property\nTerms",shape=note];
   Employee -> OfferLetter -> EmployeeTerms -> CIP;
   Contractor -> SOW -> ContractorTerms -> CIP;
 }

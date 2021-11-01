@@ -31,6 +31,10 @@ footer[role=contentinfo] {
   text-align: right;
 }
 
+main[role=main] img {
+  max-width: 100%;
+}
+
 a[href] {
   text-decoration: none;
 }
