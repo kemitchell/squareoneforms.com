@@ -1,0 +1,18 @@
+@media print {
+  html {
+    font-family: serif;
+    font-size: 11pt;
+  }
+
+  body > header, header[role=banner],
+  body > main, main[role=main],
+  body > footer, footer[role=contentinfo] {
+    margin: 1rem 0;
+    max-width: max-content;
+    padding: 0;
+  }
+
+  body > nav, nav[role=navigation] {
+    display: none;
+  }
+}
