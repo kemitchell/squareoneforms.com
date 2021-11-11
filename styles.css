@@ -153,3 +153,24 @@ aside {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+a.button[href] {
+  background-color: #28a745;
+  border: 1px solid green;
+  border-color: #28a745;
+  border-radius: 1ex;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1ex 1.5ex;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+a.button:hover {
+  background-color: #218838;
+  border-color: #218838;
+  color: white;
+}
