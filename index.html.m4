@@ -23,7 +23,7 @@ include(`partials/header.html')
   <a class=button href=#employee>Hire an Employee</a>
   <a class=button href=#contractor>Hire a Contractor</a>
   <p><span class=prompt>Want a look at the forms?</span> <a href=#forms>Be our guest.</a></p>
-  <p><span class=prompt>Curious?</span> <a href=#about>Read about the project.</a></p>
+  <p><span class=prompt>Wondering where this came from?</span> <a href=#about>Read about the project.</a></p>
   <p><span class=prompt>Thoughts?</span> <a href=#feedback>We’d like to read them.</a></p>
   <section>
     <h2 id=employee>Hire an Employee</h2>
