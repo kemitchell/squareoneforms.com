@@ -28,17 +28,25 @@ include(`partials/header.html')
   <section>
     <h2 id=employee>Hire an Employee</h2>
     <ol class=steps>
-      <li><a download="Square One Offer Letter.rtf" href=offer-letter/LATEST_EDITION.rtf>Download the offer letter template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “employer.”</li>
+      <li><a download="Square One Offer Letter.rtf" href=offer-letter/LATEST_EDITION.rtf>Download the offer letter template</a>.</li>
+      <li>Fill out all the blanks marked with {curly braces}.</li>
+      <li>Sign at the bottom under “employer.”</li>
       <li><a download="Square One Employment Terms.pdf" href=employee/LATEST_EDITION.pdf>Download the employment terms.</a></li>
-      <li>Send the offer letter to your new employee, attaching the employment terms at the back. Ask them to sign and return to you.</li>
+      <li>Send your new hire both the offer letter you filled out and the employee terms. You can send by e-mail or give them print copies.</li>
+      <li>Ask your new hire to sign the offer letter at the bottom under “employee”, then send the fully signed offer letter and employee terms back to you.</li>
+      <li>Save the fully signed offer letter and employee terms in your new employee’s file.</li>
     </ol>
   </section>
   <section>
     <h2 id=contractor>Hire a Contractor</h2>
     <ol class=steps>
-      <li>Make sure they’re really a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. <a href=https://www.irs.gov/taxtopics/tc762>IRS publishes a helpful guide.</a> Check with your state labor agency’s website, too.</li>
-      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/LATEST_EDITION.rtf>Download the statement of work template</a> and fill out all the blanks marked with {curly braces}, then sign at the bottom under “client.”</li>
-      <li>Send the statement of work to your new contractor. Ask them to sign and return to you.</li>
+      <li>Make sure they’ll really be a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. <a href=https://www.irs.gov/taxtopics/tc762>IRS publishes a helpful guide.</a> Check with your state labor agency’s website, too.</li>
+      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/LATEST_EDITION.rtf>Download the statement of work template</a>.</li>
+      <li>Fill out all the blanks marked with {curly braces}.</li>
+      <li>Sign at the bottom under “client.”</li>
+      <li>Send the statement of work you filled out to your new contractor. You can send by e-mail or give them a print copy.</li>
+      <li>Ask your new contractor to sign the statement of work at the bottom under “contractor”, then send the fully signed statement of work back to you.</li>
+      <li>Save the fully signed statement of work in your new contractor’s file.</li>
     </ol>
   </section>
   <section>
