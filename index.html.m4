@@ -18,7 +18,7 @@ include(`partials/meta.html')
 </head>
 <body>
 include(`partials/header.html')
-<main role=main>
+<main>
   <p>Square One provides free, plain English legal templates for hiring employees and independent contractors in the United States. Anyone can use Square One forms to hire someone new, <a href=#license>for free</a>.</p>
   <a class=button href=#employee>Hire an Employee</a>
   <a class=button href=#contractor>Hire a Contractor</a>

@@ -2,14 +2,14 @@ html {
   font-family: serif;
 }
 
-header[role=banner],
-main[role=main],
-footer[role=contentinfo] {
+body > header,
+body > main,
+body > footer {
   margin: 1rem 0;
   max-width: max-content;
   padding: 0;
 }
 
-nav[role=navigation] {
+body > nav {
   display: none;
 }

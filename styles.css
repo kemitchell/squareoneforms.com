@@ -12,9 +12,9 @@ html {
   max-width: 7.75rem;
 }
 
-header[role=banner],
-main[role=main],
-footer[role=contentinfo] {
+body > header,
+body > main,
+body > footer {
   margin: 0 auto;
   max-width: 37rem;
   padding-left: 1rem;
@@ -25,13 +25,13 @@ h1 {
   margin: 0 0;
 }
 
-footer[role=contentinfo] {
+body > footer {
   border-top: 1px dashed #777;
   margin-bottom: 3rem;
   text-align: right;
 }
 
-main[role=main] img {
+body > main img {
   max-width: 100%;
 }
 

@@ -61,7 +61,7 @@ ${partials.meta}
 </head>
 <body>
 ${partials.header}
-<main role=main>
+<main>
   <h2>${title}</h2>
   <p>${description}</p>
   ${editions.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
