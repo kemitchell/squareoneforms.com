@@ -86,6 +86,7 @@ include(`partials/header.html')
       <li>how to make this website simpler, easier to understand, and more effective</li>
       <li>new ideas on how to avoid conflicts between former, current, and future employers and clients</li>
     </ul>
+    <p>Those familiar with <a href=https://github.com>GitHub</a> can find the source files for the forms in the <a href=https://github.com/kemitchell/square-one-forms>kemitchell/square-one-forms</a>.  Pull requests and issues are most welcome!</p>
   </section>
   <section>
     <h2 id=license>License</h2>
