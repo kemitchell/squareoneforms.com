@@ -1,4 +1,4 @@
-define(`LATEST_EDITION', `2e2u1c')
+define(`LATEST_VERSION', `2e2u1c')
 <!doctype html>
 <html lang=en-US>
 <head>
@@ -14,7 +14,7 @@ include(`partials/meta.html')
   <meta property="og:title" content="Square One">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://squareoneforms.com/">
-  <meta name="latest" content="LATEST_EDITION">
+  <meta name="latest" content="LATEST_VERSION">
 </head>
 <body>
 include(`partials/header.html')
@@ -28,11 +28,11 @@ include(`partials/header.html')
   <section>
     <h2 id=employee>Hire an Employee</h2>
     <ol class=steps>
-      <li><a download="Square One Offer Letter.rtf" href=offer-letter/LATEST_EDITION.rtf>Download the offer letter template</a>.</li>
+      <li><a download="Square One Offer Letter.rtf" href=offer-letter/LATEST_VERSION.rtf>Download the offer letter template</a>.</li>
       <li>Fill out all the blanks marked with {curly braces}.</li>
       <li>Sign at the bottom under “employer.”</li>
-      <li><a download="Square One Employment Terms.pdf" href=employee/LATEST_EDITION.pdf>Download the employee terms.</a></li>
-      <li>Send your new hire both the offer letter you filled out and the employee terms. You can send by e-mail or give them print copies. You can give them a copy of the <a download="Square One Confidentiality and Intellectual Property Terms.pdf" href=confidentiality-ip/LATEST_EDITION.pdf>confidentiality and intellectual property</a> terms if you like.</li>
+      <li><a download="Square One Employment Terms.pdf" href=employee/LATEST_VERSION.pdf>Download the employee terms.</a></li>
+      <li>Send your new hire both the offer letter you filled out and the employee terms. You can send by e-mail or give them print copies. You can give them a copy of the <a download="Square One Confidentiality and Intellectual Property Terms.pdf" href=confidentiality-ip/LATEST_VERSION.pdf>confidentiality and intellectual property</a> terms if you like.</li>
       <li>Ask your new hire to sign the offer letter at the bottom under “employee”, then send the fully signed offer letter back to you.</li>
       <li>Save the fully signed offer letter and employee terms in your new employee’s file.</li>
     </ol>
@@ -41,10 +41,10 @@ include(`partials/header.html')
     <h2 id=contractor>Hire a Contractor</h2>
     <ol class=steps>
       <li>Make sure they’ll really be a contractor. That’s a legal question, no matter what you call them, or which legal terms you use. <a href=https://www.irs.gov/taxtopics/tc762>IRS publishes a helpful guide.</a> Check with your state labor agency’s website, too.</li>
-      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/LATEST_EDITION.rtf>Download the statement of work template</a>.</li>
+      <li><a download="Square One Statement of Work Template.rtf" href=statement-of-work/LATEST_VERSION.rtf>Download the statement of work template</a>.</li>
       <li>Fill out all the blanks marked with {curly braces}.</li>
       <li>Sign at the bottom under “client.”</li>
-      <li>Send the statement of work you filled out to your new contractor. You can send by e-mail or give them a print copy. You can give them copies of the <a download="Square One Contractor Terms.pdf" href=contractor/LATEST_EDITION.pdf>contractor</a> and <a download="Square One Confidentiality and Intellectual Property Terms.pdf" href=confidentiality-ip/LATEST_EDITION.pdf>confidentiality and intellectual property</a> terms if you like.</li>
+      <li>Send the statement of work you filled out to your new contractor. You can send by e-mail or give them a print copy. You can give them copies of the <a download="Square One Contractor Terms.pdf" href=contractor/LATEST_VERSION.pdf>contractor</a> and <a download="Square One Confidentiality and Intellectual Property Terms.pdf" href=confidentiality-ip/LATEST_VERSION.pdf>confidentiality and intellectual property</a> terms if you like.</li>
       <li>Ask your new contractor to sign the statement of work at the bottom under “contractor”, then send the fully signed statement of work back to you.</li>
       <li>Save the fully signed statement of work in your new contractor’s file.</li>
     </ol>

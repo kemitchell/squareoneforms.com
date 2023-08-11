@@ -38,7 +38,7 @@ const forms = {
 
 Object.keys(forms).forEach(subdirectory => {
   const { title, description } = forms[subdirectory]
-  const editions = glob.sync(`${subdirectory}/*.rtf`)
+  const version = glob.sync(`${subdirectory}/*.rtf`)
     .map(file => path.basename(file, '.rtf'))
     .sort(compare)
     .reverse()
@@ -65,7 +65,7 @@ ${partials.header}
 <main>
   <h2>${title}</h2>
   <p>${description}</p>
-  ${editions.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
+  ${version.map(code => `<h3 id=${code}>${capitalize(spell(code))}</h3>${fileLinks(subdirectory, code, title)}`).join('')}
 </main>
 ${partials.footer}
 </body>
@@ -74,7 +74,7 @@ ${partials.footer}
   spawnSync('tidy', ['-modify', '-config', './tidy.config', htmlFile])
 })
 
-function fileLinks (subdirectory, edition, title) {
+function fileLinks (subdirectory, version, title) {
   const forms = {
     html: { text: 'Read Online', download: false, stripExtension: true },
     rtf: { text: 'Download RTF', download: true },
@@ -83,12 +83,12 @@ function fileLinks (subdirectory, edition, title) {
   }
   let returned = ''
   Object.keys(forms).forEach(extension => {
-    if (fs.existsSync(path.join(subdirectory, `${edition}.${extension}`))) {
-      const download = `Square One ${title} ${edition}.${extension}`
+    if (fs.existsSync(path.join(subdirectory, `${version}.${extension}`))) {
+      const download = `Square One ${title} ${version}.${extension}`
       const info = forms[extension]
       const href = info.stripExtension
-        ? `/${subdirectory}/${edition}`
-        : `/${subdirectory}/${edition}.${extension}`
+        ? `/${subdirectory}/${version}`
+        : `/${subdirectory}/${version}.${extension}`
       returned += `<p><a${info.download ? ` download="${download}"` : ''} href=${href}>${info.text}</a></p>`
     }
   })
