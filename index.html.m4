@@ -1,4 +1,4 @@
-define(`LATEST_VERSION', `2e2u1c')
+define(`LATEST_VERSION', `3.0.0')
 <!doctype html>
 <html lang=en-US>
 <head>

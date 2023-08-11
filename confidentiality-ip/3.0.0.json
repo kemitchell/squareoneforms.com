@@ -1,0 +1,896 @@
+{
+  "content": [
+    {
+      "form": {
+        "content": [
+          "These terms set out the rules about confidential information and intellectual property for your work for the company. If the company employs you, these terms apply to your work as an employee. If the company hires you as a contractor, these terms apply to your work as a contractor."
+        ]
+      },
+      "heading": "Overview"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "The purpose of ",
+                {
+                  "reference": "Confidentiality"
+                },
+                " is to protect company secrets and meet the company's obligations under confidentiality agreements with others, such as customers and suppliers."
+              ]
+            },
+            "heading": "Purpose of Confidentiality"
+          },
+          {
+            "form": {
+              "content": [
+                "With the exceptions listed in ",
+                {
+                  "reference": "Not Confidential Information"
+                },
+                ", ",
+                {
+                  "definition": "Confidential Information"
+                },
+                " means:",
+                {
+                  "form": {
+                    "content": [
+                      "information the company shares with or makes available to you during your work for the company"
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "information you develop during your work for the company"
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "information the company shared with you before you started work with the company"
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "information that builds on these kinds of information"
+                    ]
+                  }
+                }
+              ]
+            },
+            "heading": "Confidential Information"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "form": {
+                    "content": [
+                      "Information that is already public is not ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      ". ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " that becomes public stops being ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      ", unless you made it public in breach of these terms."
+                    ]
+                  },
+                  "heading": "Public Information"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "Information that you have or get access to unrelated to your work for the company is not ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      ", unless the source breached a confidentiality obligation to the company by providing the information to you."
+                    ]
+                  },
+                  "heading": "Information from Other Sources"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "Information you develop or discover on your own, unrelated to your work for the company and without using company resources, is not, or stops being, ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      "."
+                    ]
+                  },
+                  "heading": "Independently Developed Information"
+                }
+              ]
+            },
+            "heading": "Not Confidential Information"
+          },
+          {
+            "form": {
+              "content": [
+                "Except as required by law, you agree not to disclose any ",
+                {
+                  "use": "Confidential Information"
+                },
+                " to anyone, except as directed, in writing, by an officer of the company."
+              ]
+            },
+            "heading": "Nondisclosure"
+          },
+          {
+            "form": {
+              "content": [
+                "You agree to use ",
+                {
+                  "use": "Confidential Information"
+                },
+                " only in your work for the company, to benefit the company."
+              ]
+            },
+            "heading": "Limited Use"
+          },
+          {
+            "form": {
+              "content": [
+                "You agree to take reasonable measures to secure computer files, documents, e-mails, and any other materials containing ",
+                {
+                  "use": "Confidential Information"
+                },
+                ". If the company provides written security requirements for some or all ",
+                {
+                  "use": "Confidential Information"
+                },
+                " you receive, you agree to follow those requirements to the best of your ability, and to tell your supervisor immediately about requirements you can't follow."
+              ]
+            },
+            "heading": "Security"
+          },
+          {
+            "form": {
+              "content": [
+                "You agree not to remove any copyright notices, confidential markings, or other proprietary notices from materials containing ",
+                {
+                  "use": "Confidential Information"
+                },
+                "."
+              ]
+            },
+            "heading": "Preserve Proprietary Notices"
+          },
+          {
+            "form": {
+              "content": [
+                "These rules apply when the law requires you to disclose ",
+                {
+                  "use": "Confidential Information"
+                },
+                ", or when you reasonably suspect the law may require you to:",
+                {
+                  "form": {
+                    "content": [
+                      "If the law allows, you agree to promptly notify the company of the nature of the requirement and the ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " affected. If practical, you agree to give notice quickly enough to give the company a practical chance to start a legal proceeding to protect the confidentiality of the ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      "."
+                    ]
+                  },
+                  "heading": "Give Notice of Required Disclosure"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "On company request, you agree to cooperate with and help the company in any proceeding to protect the confidentiality of ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      ". The company agrees to reimburse your necessary out-of-pocket expenses."
+                    ]
+                  },
+                  "heading": "Assistance"
+                }
+              ]
+            },
+            "heading": "Legally Required Disclosure"
+          },
+          {
+            "form": {
+              "content": [
+                "You agree to tell the company in writing whenever you become aware, suspect, or anticipate that ",
+                {
+                  "use": "Confidential Information"
+                },
+                " has been or will be disclosed or used in breach of these terms or other confidentiality agreements with the company."
+              ]
+            },
+            "heading": "Give Notice of Leaks"
+          },
+          {
+            "form": {
+              "content": [
+                "When your work with the company ends, and whenever the company asks you to in writing:",
+                {
+                  "form": {
+                    "content": [
+                      "You agree to promptly return any physical materials containing ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " that the company asks for."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "You agree to promptly destroy all other materials containing ",
+                      {
+                        "use": "Confidential Information"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "heading": "Return and Destruction"
+          },
+          {
+            "form": {
+              "content": [
+                "After your work with the company ends:",
+                {
+                  "form": {
+                    "content": [
+                      "Your obligations for ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " that you know or should reasonably expect the company protects as a trade secret continue as long as the ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " remains a trade secret."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "Your obligations for other ",
+                      {
+                        "use": "Confidential Information"
+                      },
+                      " continue for five calendar years from the date your work with the company ended."
+                    ]
+                  }
+                }
+              ]
+            },
+            "heading": "After Termination"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "form": {
+                    "content": [
+                      "The purpose of ",
+                      {
+                        "reference": "DTSA Notice"
+                      },
+                      " is to give you the notice required under United States Code title 18, section 1883(b)(3)(A), a part of the federal Defend Trade Secrets Act."
+                    ]
+                  },
+                  "heading": "Purpose of DTSA Notice"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "Per the Defend Trade Secrets Act of 2016:",
+                      {
+                        "form": {
+                          "content": [
+                            "An individual shall not be held criminally or civilly liable under any Federal or State trade secret law for the disclosure of a trade secret that:",
+                            {
+                              "form": {
+                                "content": [
+                                  "is made:",
+                                  {
+                                    "form": {
+                                      "content": [
+                                        "in confidence to a Federal, State, or local government official, either directly or indirectly, or to an attorney; and"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "form": {
+                                      "content": [
+                                        "solely for the purpose of reporting or investigating a suspected violation of law; or"
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "form": {
+                                "content": [
+                                  "is made in a complaint or other document filed in a lawsuit or other proceeding, if such filing is made under seal."
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "An individual who files a lawsuit for retaliation by an employer for reporting a suspected violation of law may disclose the trade secret to the attorney of the individual and use the trade secret information in the court proceeding, if the individual:",
+                            {
+                              "form": {
+                                "content": [
+                                  "files any document containing the trade secret under seal; and"
+                                ]
+                              }
+                            },
+                            {
+                              "form": {
+                                "content": [
+                                  "does not disclose the trade secret, except pursuant to court order."
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "heading": "Immunity Under the DTSA"
+                }
+              ]
+            },
+            "heading": "DTSA Notice"
+          }
+        ]
+      },
+      "heading": "Confidentiality"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "The purpose of ",
+                {
+                  "reference": "Intellectual Property"
+                },
+                " is to make sure the company gets ownership of all ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                " in your work for the company, or, failing that, broad licenses for it. In summary:",
+                {
+                  "form": {
+                    "content": [
+                      "You promise to let the company know about the work you do in ",
+                      {
+                        "reference": "Disclosure"
+                      },
+                      "."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If the law allows the company to own copyright in your work from the start, ",
+                      {
+                        "reference": "Work Made for Hire"
+                      },
+                      " makes it so."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If rights in your work unavoidably belong to you to start, you transfer them to the company in ",
+                      {
+                        "reference": "Assignment"
+                      },
+                      "."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If you can't transfer your rights, or use the rights of others, you license them to the company in ",
+                      {
+                        "reference": "License"
+                      },
+                      "."
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If you can't transfer special \"moral rights\", such as in artwork, you agree not to enforce those rights in ",
+                      {
+                        "reference": "Moral Rights"
+                      },
+                      "."
+                    ]
+                  }
+                }
+              ]
+            },
+            "heading": "Purpose of Intellectual Property Terms"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "definition": "Intellectual Property Rights"
+                },
+                " are legal rights in ideas, inventions, information, and other things that aren't physical property. Copyrights, patents, trade secrets, and trademarks are the most common. When these terms say ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                ", they also mean legal rights in applications to protect ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                ", like copyright, trademark, and patent applications."
+              ]
+            },
+            "heading": "Intellectual Property Rights"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "definition": "Company Intellectual Property"
+                },
+                " means all ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                " in these kinds of work, created by you alone or with others:",
+                {
+                  "form": {
+                    "content": [
+                      "work you do or have done for the company"
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "work you create using company equipment, supplies, facilities, or ",
+                      {
+                        "use": "Confidential Information"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "form": {
+                    "content": [
+                      "work building on these kinds of work"
+                    ]
+                  }
+                }
+              ]
+            },
+            "heading": "Company Intellectual Property"
+          },
+          {
+            "form": {
+              "content": [
+                "You agree to keep records of the work you create for the company, and to promptly disclose ",
+                {
+                  "use": "Company Intellectual Property"
+                },
+                " to the company in writing, as it is created. If you're not sure whether you've created ",
+                {
+                  "use": "Company Intellectual Property"
+                },
+                ", you agree to disclose your work to the company, so the company can decide."
+              ]
+            },
+            "heading": "Disclosure"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "form": {
+                    "content": [
+                      "Subject to ",
+                      {
+                        "reference": "State Employment Law Exception"
+                      },
+                      ", as far as the law allows, ",
+                      {
+                        "use": "Company Intellectual Property"
+                      },
+                      " will be \"work made for hire\" under copyright law."
+                    ]
+                  },
+                  "heading": "Express Agreement to Make \"Work Made for Hire\""
+                },
+                {
+                  "form": {
+                    "content": [
+                      "Some states have laws that treat workers who agree to make \"work made for hire\" like employees, even if they would otherwise be contractors. For example, section 3351.5(c) of the California Labor Code and section 686 of the California Unemployment Insurance Code. If you work in one of those states and work for the company as a contractor, ",
+                      {
+                        "reference": "Express Agreement to Make \"Work Made for Hire\""
+                      },
+                      " does not apply if it would get you treated as an employee under that state's law."
+                    ]
+                  },
+                  "heading": "State Employment Law Exception"
+                }
+              ]
+            },
+            "heading": "Work Made for Hire"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "form": {
+                    "content": [
+                      "You assign all your rights in ",
+                      {
+                        "use": "Company Intellectual Property"
+                      },
+                      " that aren't covered by ",
+                      {
+                        "reference": "Work Made for Hire"
+                      },
+                      " to the company."
+                    ]
+                  },
+                  "heading": "Assignment of Rights"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If you work in a state with laws that limit the ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " that terms like these can assign to the company, ",
+                      {
+                        "reference": "Assignment"
+                      },
+                      " does not assign those ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " to the company. Examples of those state laws include:",
+                      {
+                        "form": {
+                          "content": [
+                            "California Labor Code section 2870"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Delaware Code title 19 section 805"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Illinois Compiled Statutes section 1060/2"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Kansas Labor and Industries Code section 44-130"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Minnesota Labor, Industry Code section 181.78"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "New Jersey Statutes section 34:1B-265"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "North Carolina General Statutes chapter 66 article 10 sections 66-57.1 and 66-57.2"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Utah Code title 34 chapter 39"
+                          ]
+                        }
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "Washington Revised Code sections 49.44.140 and 49.44.150"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "heading": "State Invention Assignment Exceptions"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "On company request, you agree to do everything necessary to document assignments in ",
+                      {
+                        "reference": "Assignment"
+                      },
+                      ", make them legally effective, and help the company enforce the rights assigned. The company agrees to provide all necessary documentation and reimburse your necessary out-of-pocket expenses."
+                    ]
+                  },
+                  "heading": "Further Steps"
+                },
+                {
+                  "form": {
+                    "content": [
+                      {
+                        "form": {
+                          "content": [
+                            "The company can take action under ",
+                            {
+                              "reference": "Further Steps"
+                            },
+                            " on your behalf if you aren't capable of doing so, if you refuse to do so, of if the company can't find you or get in touch with you."
+                          ]
+                        },
+                        "heading": "What the Company Can Do"
+                      },
+                      {
+                        "form": {
+                          "content": [
+                            "In legal terms of art, ",
+                            {
+                              "reference": "What the Company Can Do"
+                            },
+                            " appoints the company as your \"attorney in fact with full right of substitution\" to act on your behalf under ",
+                            {
+                              "reference": "Further Steps"
+                            },
+                            "."
+                          ]
+                        },
+                        "heading": "Legal Intent"
+                      }
+                    ]
+                  },
+                  "heading": "Acting on Your Behalf"
+                }
+              ]
+            },
+            "heading": "Assignment"
+          },
+          {
+            "form": {
+              "content": [
+                {
+                  "form": {
+                    "content": [
+                      "As far as the law allows, you give the company a license for all rights in ",
+                      {
+                        "use": "Company Intellectual Property"
+                      },
+                      " that aren't assigned under ",
+                      {
+                        "reference": "Assignment"
+                      },
+                      ", as well as any ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " of others that you use in work for the company."
+                    ]
+                  },
+                  "heading": "License Grant"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "If you work in a state with laws that limit the ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " that terms like these can license to the company, such as Utah title 34 chapter 39, the license does not cover those ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      "."
+                    ]
+                  },
+                  "heading": "State License Exceptions"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "The license allows the company to do anything that would otherwise infringe the ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " it covers, and to sublicense others to do so. The license isn't limited in time or otherwise, and you can't revoke it."
+                    ]
+                  },
+                  "heading": "Scope of License"
+                },
+                {
+                  "form": {
+                    "content": [
+                      "As far as possible, the license is also exclusive, so you can't license the same ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " to anyone else. However, the license for any ",
+                      {
+                        "use": "Intellectual Property Rights"
+                      },
+                      " covered by ",
+                      {
+                        "reference": "State Invention Assignment Exceptions"
+                      },
+                      " is nonexclusive."
+                    ]
+                  },
+                  "heading": "Exclusivity"
+                }
+              ]
+            },
+            "heading": "License"
+          },
+          {
+            "form": {
+              "content": [
+                "If the law gives you \"moral rights\" in work for the company that you can't assign, you waive those rights and promise not to enforce them against anyone."
+              ]
+            },
+            "heading": "Moral Rights"
+          }
+        ]
+      },
+      "heading": "Intellectual Property"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "You guarantee that agreeing to these terms and following them won't cause you to break any other agreement with anyone else."
+              ]
+            },
+            "heading": "Conflicting Agreements"
+          },
+          {
+            "form": {
+              "content": [
+                "You guarantee you will not infringe the ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                " of others in work for the company."
+              ]
+            },
+            "heading": "Intellectual Property Infringement"
+          },
+          {
+            "form": {
+              "content": [
+                "If the company provides policies on acceptable terms for open source, open data, open content, material dedicated to the public domain, or similar kinds of freely available work, you agree to follow those policies. You guarantee that you will only include freely available work in ",
+                {
+                  "use": "Company Intellectual Property"
+                },
+                " will that follows those policies."
+              ]
+            },
+            "heading": "Open Licensing"
+          },
+          {
+            "form": {
+              "content": [
+                "Otherwise, you guarantee that you will not include or build on material covered by ",
+                {
+                  "use": "Intellectual Property Rights"
+                },
+                " that you can't license to the company under ",
+                {
+                  "reference": "License"
+                },
+                " in work for the company."
+              ]
+            },
+            "heading": "Rights to License"
+          }
+        ]
+      },
+      "heading": "Responsibilities"
+    },
+    {
+      "form": {
+        "content": [
+          {
+            "form": {
+              "content": [
+                "None of these terms are intended to stop you using general knowledge, skills, and experience gained during your work for the company to work elsewhere, or even to compete fairly with the company."
+              ]
+            }
+          },
+          {
+            "form": {
+              "content": [
+                "None of these terms are intended to stop you pursuing legal claims you may have against the company."
+              ]
+            }
+          },
+          {
+            "form": {
+              "content": [
+                "None of these terms are intended to stop you discussing terms, wages, or conditions of your work, or from organizing workers or doing other things protected by labor laws."
+              ]
+            }
+          },
+          {
+            "form": {
+              "content": [
+                "None of these terms are intended to reduce rights or protections you may have under whistleblower laws."
+              ]
+            }
+          },
+          {
+            "form": {
+              "content": [
+                "None of these terms prevents you from discussing or disclosing information about unlawful acts in the workplace, such as harassment or discrimination or any other conduct that you have reason to believe is unlawful."
+              ]
+            }
+          }
+        ]
+      },
+      "heading": "Fairness"
+    }
+  ]
+}
