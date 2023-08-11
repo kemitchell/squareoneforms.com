@@ -1,10 +1,11 @@
 #!/usr/bin/env node
-const compare = require('reviewers-edition-compare')
 const fs = require('fs')
 const glob = require('glob')
 const path = require('path')
+const revEdCompare = require('reviewers-edition-compare')
+const semverCompare = require('semver/functions/compare')
+const revEdSpell = require('reviewers-edition-spell')
 const { spawnSync } = require('child_process')
-const spell = require('reviewers-edition-spell')
 
 const partials = {}
 glob.sync('partials/*.html').forEach(file => {
@@ -100,4 +101,23 @@ function capitalize (spelling) {
     .split(' ')
     .map(word => word[0].toUpperCase() + word.slice(1))
     .join(' ')
+}
+
+function spell (a) {
+  return isReviewersEdition(a)
+    ? revEdSpell(a)
+    : `Version\u00a0${a}`
+}
+
+function compare (a, b) {
+  const aIsRevEd = isReviewersEdition(a)
+  const bIsRevEd = isReviewersEdition(b)
+  if (aIsRevEd && !bIsRevEd) return -1
+  if (bIsRevEd && !aIsRevEd) return 1
+  if (aIsRevEd && bIsRevEd) return revEdCompare(a, b)
+  else return semverCompare(a, b)
+}
+
+function isReviewersEdition (string) {
+  return /^\d+e/.test(string)
 }
