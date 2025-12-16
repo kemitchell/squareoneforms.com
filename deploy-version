@@ -57,3 +57,6 @@ git tag "$tag"
 git push origin "$tag"
 
 ./deploy
+
+echo "TODO: Add Internet Archive links."
+echo "TODO: Add perma.cc links."
