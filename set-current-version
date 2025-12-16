@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+version="$1"
+if test -z "$version"; then
+  echo "Usage: <version>"
+  exit 1
+fi
+
+ed -s 'index.html.m4' <<ED
+1c
+define(\`LATEST_VERSION', \`$version')
+.
+w
+q
+ED
+

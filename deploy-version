@@ -1,0 +1,59 @@
+#!/bin/sh
+set -e
+
+version="$1"
+if test -z "$version"; then
+  echo "Usage: <version>"
+  exit 1
+fi
+
+tag="v$version"
+
+tmp="$(mktemp -d)"
+remove_tmp () {
+  rm -rf "$tmp"
+}
+trap remove_tmp EXIT
+git clone --depth 1 --branch "$tag" git@github.com:kemitchell/square-one-forms
+(
+  cd "$tmp"
+  VERSION="$version" make
+)
+
+for base in confidentiality-ip contractor employee offer-letter statement-of-work; do
+  for file in "$tmp"/build/"$base".*; do
+    extension="${file##*.}"
+    if test "$extension" = "html"; then
+      target="$base/$version.html.m4"
+      cat > "$target" <<EOS
+<!doctype html>
+<html lang=en-US>
+include(\`partials/$base.html')
+<body>
+include(\`partials/header.html')
+<main>
+EOS
+      cat "$file" >> "$target"
+      cat >> "$target" <<EOS
+</main>
+include(\`partials/footer.html')
+</body>
+</html>
+EOS
+    else
+      target="$base/$version.$extension"
+    fi
+  done
+done
+
+./index-forms
+
+./set-current-version "$version"
+
+git add --all
+git commit -m "Version $version"
+git push origin main
+git tag "$tag"
+git push origin "$tag"
+
+./deploy
